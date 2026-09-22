@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilki Apsara | IT Student & Full-Stack Web Developer</title>
+    <meta name="description" content="Personal portfolio of Dilki Apsara - IT Student & Aspiring Full-Stack Web Developer passionate about modern, interactive web experiences.">
+    <meta name="keywords" content="Dilki Apsara, Full-Stack Web Developer, IT Student, Portfolio, Frontend, Backend, Web Development">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Decorative Glow Effects -->
+    <div class="bg-glow glow-1"></div>
+    <div class="bg-glow glow-2"></div>
+    <div class="bg-glow glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <span class="logo-symbol">&lt;</span>
+                <span class="logo-name">Dilki</span>
+                <span class="logo-accent">.Apsara</span>
+                <span class="logo-symbol">/&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#journey" class="nav-link">Journey</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-solid fa-moon icon-dark"></i>
+                    <i class="fa-solid fa-sun icon-light"></i>
+                </button>
+                <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content scroll-reveal">
+                    <div class="status-badge">
+                        <span class="status-dot"></span> Available for Opportunities & Projects
+                    </div>
+                    
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Dilki Apsara</span>
+                    </h1>
+                    
+                    <h2 class="hero-subtitle">
+                        I am a <span class="hero-role-highlight">Full-Stack Web Developer</span>
+                    </h2>
+                    
+                    <div class="hero-typing-box">
+                        <span class="typing-prefix"><i class="fa-solid fa-code"></i> Specializing in </span>
+                        <span id="typing-text" class="typing-highlight"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                    
+                    <p class="hero-description">
+                        I build modern, responsive and user-friendly web applications, combining AI, e-commerce functionality, UI/UX design, frontend and backend development to create practical digital solutions.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>Explore My Projects</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <button id="cv-btn" class="btn btn-secondary">
+                            <i class="fa-solid fa-file-arrow-down"></i>
+                        <a href="C:\Users\hp\OneDrive\Desktop\my pot polio\DILKI_APSARA_FlowCV_Resume_2026-09-22 (1).pdf"download-cv-resume-btn class="btn btn-primary" download>
+                        </a>
+                         <span>Download CV</span>
+                        </button>
+                    </div>
+
+                    <div class="hero-tech-stack">
+                        <span class="tech-label">Tech Highlights:</span>
+                        <div class="tech-icons">
+                            <span title="HTML5"><i class="fa-brands fa-html5"></i></span>
+                            <span title="CSS3"><i class="fa-brands fa-css3-alt"></i></span>
+                            <span title="JavaScript"><i class="fa-brands fa-js"></i></span>
+                            <span title="React"><i class="fa-brands fa-react"></i></span>
+                            <span title="PHP"><i class="fa-brands fa-php"></i></span>
+                            <span title="MySQL"><i class="fa-solid fa-database"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual scroll-reveal">
+                    <div class="code-window glass-card">
+                        <div class="code-header">
+                            <div class="code-dots">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="code-title">
+                                <i class="fa-brands fa-js code-icon"></i>
+                                developer.js
+                            </div>
+                            <button class="code-copy-btn" id="copy-code-btn" title="Copy Code">
+                                <i class="fa-regular fa-copy"></i>
+                            </button>
+                        </div>
+                        <div class="code-body">
+                            <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Dilki Apsara"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Full-Stack Web Developer"</span>,
+  <span class="code-property">expertise</span>: [<span class="code-string">"AI Dev"</span>, <span class="code-string">"E-Commerce"</span>, <span class="code-string">"UI/UX"</span>, <span class="code-string">"Full-Stack"</span>],
+  <span class="code-property">status</span>: <span class="code-string">"Available for Opportunities 🚀"</span>
+};</code></pre>
+                        </div>
+                    </div>
+
+                    <!-- Profile Quick Card -->
+                    <div class="floating-avatar-card glass-card">
+                        <img src="dilki_avatar.jpg" alt="Dilki Apsara" class="avatar-img">
+                        <div class="avatar-info">
+                            <span class="avatar-name">Dilki Apsara</span>
+                            <span class="avatar-role">Full-Stack Web Developer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">01. ABOUT ME</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-wrapper scroll-reveal">
+                        <div class="avatar-frame glass-card">
+                            <img src="dilki_avatar.jpg" alt="Dilki Apsara Profile" class="about-avatar">
+                            <div class="frame-glow"></div>
+                            <div class="experience-badge glass-card">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <div>
+                                    <span class="badge-title">IT Undergraduate</span>
+                                    <span class="badge-sub">Full-Stack Developer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-content scroll-reveal">
+                        <h3 class="about-heading">
+                            Hello! I'm <span class="gradient-text">Dilki Apsara</span>
+                        </h3>
+                        <p class="about-text">
+                            I am an IT student and aspiring Full-Stack Web Developer with a strong interest in web development and modern technology. I enjoy creating responsive, interactive and user-friendly websites and continuously improving my technical skills through practical projects.
+                        </p>
+
+                        <!-- Visual Highlight Cards Grid -->
+                        <div class="about-highlights-grid">
+                            <div class="highlight-card glass-card">
+                                <div class="highlight-icon icon-purple">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="highlight-info">
+                                    <h4>Frontend Development</h4>
+                                    <p>HTML5, CSS3, JavaScript &amp; React UI building</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-card glass-card">
+                                <div class="highlight-icon icon-cyan">
+                                    <i class="fa-solid fa-server"></i>
+                                </div>
+                                <div class="highlight-info">
+                                    <h4>Backend Development</h4>
+                                    <p>PHP server scripting &amp; application logic</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-card glass-card">
+                                <div class="highlight-icon icon-blue">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="highlight-info">
+                                    <h4>Database Management</h4>
+                                    <p>Relational databases &amp; MySQL queries</p>
+                                </div>
+                            </div>
+
+                            <div class="highlight-card glass-card">
+                                <div class="highlight-icon icon-pink">
+                                    <i class="fa-solid fa-pen-nib"></i>
+                                </div>
+                                <div class="highlight-info">
+                                    <h4>UI/UX Design</h4>
+                                    <p>Responsive design &amp; intuitive user experiences</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Statistics Grid -->
+                        <div class="stats-grid">
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon"><i class="fa-solid fa-code"></i></div>
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon"><i class="fa-solid fa-layer-group"></i></div>
+                                <div class="stat-number">8+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                            <div class="stat-card glass-card">
+                                <div class="stat-icon"><i class="fa-solid fa-infinity"></i></div>
+                                <div class="stat-number">Always</div>
+                                <div class="stat-label">Learning & Growing</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">02. EDUCATION</span>
+                    <h2 class="section-title">My Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="education-timeline scroll-reveal">
+
+                    <!-- Education Item 01 -->
+                    <div class="edu-card glass-card">
+                        <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> Education 01</div>
+                        <h3 class="edu-title">[High National Diploma in Information Technology]</h3>
+                        <div class="edu-institute">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <span>[Hardy Advance Technology Institute]</span>
+                        </div>
+                        <div class="edu-year">
+                            <i class="fa-regular fa-calendar"></i>
+                            <span>[2025 - Present]</span>
+                        </div>
+                        <p class="edu-desc">
+                            Pursuing undergraduate studies in Information Technology focusing on software development, web engineering, database architecture, and computer science principles.
+                        </p>
+                    </div>
+
+                    <!-- Education Item 02 -->
+                    <div class="edu-card glass-card">
+                        <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> Education 02</div>
+                        <h3 class="edu-title">[Diploma in Infromation Technology]</h3>
+                        <div class="edu-institute">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <span>[Darmashakthi Padanama]</span>
+                        </div>
+                        <div class="edu-year">
+                            <i class="fa-regular fa-calendar"></i>
+                            <span>[2022 - 2022]</span>
+                        </div>
+                        <p class="edu-desc">
+                            Completed comprehensive training covering core frontend technologies, PHP server-side scripting, database design, and responsive web design.
+                        </p>
+                    </div>
+
+                    <!-- Education Item 03 -->
+                    <div class="edu-card glass-card">
+                        <div class="edu-badge"><i class="fa-solid fa-graduation-cap"></i> Education 03</div>
+                        <h3 class="edu-title">[ IT Certification]</h3>
+                        <div class="edu-institute">
+                            <i class="fa-solid fa-building-columns"></i>
+                            <span>[Silor University]</span>
+                        </div>
+                        <div class="edu-year">
+                            <i class="fa-regular fa-calendar"></i>
+                            <span>[2020 - 2022]</span>
+                        </div>
+                        <p class="edu-desc">
+                            Successfully completed secondary education with emphasis on Information Technology, Mathematics, and Computer Studies.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">03. SKILLS</span>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    
+                    <!-- Frontend Skills -->
+                    <div class="skill-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <div class="category-icon icon-purple">
+                                <i class="fa-solid fa-laptop-code"></i>
+                            </div>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-html5 skill-icon html-color"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-css3-alt skill-icon css-color"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-js skill-icon js-color"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-react skill-icon react-color"></i>
+                                <span>React</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <div class="category-icon icon-cyan">
+                                <i class="fa-solid fa-server"></i>
+                            </div>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-php skill-icon php-color"></i>
+                                <span>PHP</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-database skill-icon mysql-color"></i>
+                                <span>MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools Skills -->
+                    <div class="skill-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <div class="category-icon icon-blue">
+                                <i class="fa-solid fa-wrench"></i>
+                            </div>
+                            <h3>Tools</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-git-alt skill-icon git-color"></i>
+                                <span>Git</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-brands fa-github skill-icon github-color"></i>
+                                <span>GitHub</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-code skill-icon vscode-color"></i>
+                                <span>VS Code</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Other Skills -->
+                    <div class="skill-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <div class="category-icon icon-pink">
+                                <i class="fa-solid fa-palette"></i>
+                            </div>
+                            <h3>Other</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-mobile-screen skill-icon resp-color"></i>
+                                <span>Responsive Web Design</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-pen-nib skill-icon ui-color"></i>
+                                <span>UI/UX</span>
+                            </div>
+                            <div class="skill-pill">
+                                <i class="fa-solid fa-puzzle-piece skill-icon problem-color"></i>
+                                <span>Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">04. PROJECTS</span>
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <!-- Project Filters -->
+                <div class="project-filters scroll-reveal">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend</button>
+                    <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                </div>
+
+                <!-- Projects Showcase Grid -->
+                <div class="projects-grid">
+
+                    <!-- Project 01: INDOPLANT -->
+                    <div class="project-card glass-card featured-project scroll-reveal" data-category="fullstack frontend">
+                        <div class="project-badge">Featured Project</div>
+                        <div class="project-image-container">
+                            <img src="Screenshot 2026-09-19 110143.png" alt="INDOPLANT" class="project-card-img" onerror="this.src='images/indoplant.jpg'">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fa-solid fa-leaf"></i> Plant &amp; Flower E-Commerce Website</span>
+                            </div>
+                            <h3 class="project-title">INDOPLANT</h3>
+                            <p class="project-description">
+                               Developed a modern and responsive plant e-commerce website with smart plant care guidance and interactive shopping features. The platform provides customized care instructions based on plant placement, including watering and care requirements, while allowing users to browse products, add plants to the cart, and automatically calculate the total purchase amount.
+                            </p>
+                            
+                            <div class="project-features-pills">
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Product Search</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Dynamic Cart</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Price Calculation</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Plant Caring Options</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i>Add card Options</span>
+                                 <span class="feature-pill"><i class="fa-solid fa-check"></i>Calculation Total Bils</span>
+                            
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React Js</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <button class="btn btn-sm btn-primary demo-modal-btn" data-project="indoplant">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </button>
+                                <a href="https://github.com/DilkiApsara741" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <button class="btn btn-sm btn-secondary demo-modal-btn" data-project="indoplant">
+                                    <i class="fa-solid fa-circle-info"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 02: Online Flower Shop -->
+                    <div class="project-card glass-card scroll-reveal" data-category="frontend fullstack">
+                        <div class="project-image-container">
+                            <img src="Screenshot 2026-07-25 215020.png" alt="Online Flower Shop" class="project-card-img" onerror="this.src='images/flower-shop.jpg'">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fa-solid fa-spa"></i> Online Flower Shop</span>
+                            </div>
+                            <h3 class="project-title">Online Flower Shop</h3>
+                            <p class="project-description">
+                                Developed a modern and responsive e-commerce web application for an online flower shop, featuring secure form validation, automatic invoice generation, order date selection, customer ordering functionality, and personalized flower recommendations based on special occasions. Users can explore detailed flower information and place orders through an interactive and user-friendly interface.
+                                </p>
+                            
+                            <div class="project-features-pills">
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Product Browsing</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Search &amp; Filter</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Add to Cart</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> customized Boky</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i>Selected to Dilivery Date</span>
+                                 <span class="feature-pill"><i class="fa-solid fa-check"></i>COD and Cad Pement Options</span>
+                            
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React Js</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <button class="btn btn-sm btn-primary demo-modal-btn" data-project="flowerShop">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </button>
+                                <a href="https://github.com/DilkiApsara741" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <button class="btn btn-sm btn-secondary demo-modal-btn" data-project="flowerShop">
+                                    <i class="fa-solid fa-circle-info"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 03: Sweet Shop -->
+                    <div class="project-card glass-card scroll-reveal" data-category="frontend">
+                        <div class="project-image-container">
+                            <img src="Screenshot 2026-09-19 195735.png" alt="Sweet Shop" class="project-card-img" onerror="this.src='images/sweet-shop.jpg'">
+                        </div>
+                        <div class="project-details">
+                            <div class="project-meta">
+                                <span class="project-category"><i class="fa-solid fa-cookie-bite"></i> Sweet Shop Website</span>
+                            </div>
+                            <h3 class="project-title">Sweet Shop</h3>
+                            <p class="project-description">
+                               Designed and developed  a fully responsive e-commerce web application dedicated to a bespoke online cake shop. The platform features an advanced customization engine that enables users to tailor every aspect of their cake—including flavor, icing type, size, and weight—and includes a personalized messaging system. It integrates a secure user authentication system, dynamic price sorting, real-time order tracking, and a built-in feedback mechanism, delivering a seamless end-to-end user experience.
+                            </p>
+                                                      
+                            
+                            <div class="project-features-pills">
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Product Browsing</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Category Filter</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Responsive UI</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Customice the orders</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Customer feed back and Rewiws</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i> Login Page</span>
+                                <span class="feature-pill"><i class="fa-solid fa-check"></i>Oder Tracking Systems</span>
+                                
+                            </div>
+
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React Js</span>
+                            </div>
+                            
+                            <div class="project-links">
+                                <button class="btn btn-sm btn-primary demo-modal-btn" data-project="sweetShop">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+                                </button>
+                                <a href="" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                                <button class="btn btn-sm btn-secondary demo-modal-btn" data-project="sweetShop">
+                                    <i class="fa-solid fa-circle-info"></i> View Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certificates & Achievements Section -->
+        <section id="certificates" class="certificates-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">05. CERTIFICATES</span>
+                    <h2 class="section-title">Certificates &amp; Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certificates-grid">
+
+                    <!-- Certificate Card 01 -->
+                    <div class="certificate-card glass-card scroll-reveal">
+                        <div class="cert-image-container">
+                            <img src="C:\Users\hp\OneDrive\Desktop\my pot polio\WhatsApp Image 2026-09-20 at 13.21.51.jpeg" alt="Certificate 01" class="cert-img" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fa-solid fa-award\'></i><span>Certificate Image</span></div>'">
+                        </div>
+                        <div class="cert-details">
+                            <span class="cert-badge">Certificate 01</span>
+                            <h3 class="cert-title">[Infromation Technology]</h3>
+                            <div class="cert-meta">
+                                <span class="cert-org"><i class="fa-solid fa-building"></i> [Darmashakthi Padanama]</span>
+                                <span class="cert-year"><i class="fa-regular fa-calendar"></i> [2022]</span>
+                            </div>
+                            <p class="cert-desc">
+                                Specialized certification demonstrating technical mastery in web technologies, frontend interfaces, or computer science concepts.
+                            </p>
+                            <button class="btn btn-sm btn-outline cert-modal-btn" data-cert="cert1">
+                                <i class="fa-solid fa-eye"></i> View Certificate
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Card 02 -->
+                    <div class="certificate-card glass-card scroll-reveal">
+                        <div class="cert-image-container">
+                            <img src="C:\Users\hp\OneDrive\Desktop\my pot polio\WhatsApp Image 2026-09-20 at 13.21.51.jpeg" alt="Certificate 02" class="cert-img" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fa-solid fa-award\'></i><span>Certificate Image</span></div>'">
+                        </div>
+                        <div class="cert-details">
+                            <span class="cert-badge">Certificate 02</span>
+                            <h3 class="cert-title">[ Certificate to English Language]</h3>
+                            <div class="cert-meta">
+                                <span class="cert-org"><i class="fa-solid fa-building"></i> [Darmashakthi Padanama]</span>
+                                <span class="cert-year"><i class="fa-regular fa-calendar"></i> [2022]</span>
+                            </div>
+                            <p class="cert-desc">
+                                English Language Certificate Course. Successfully completed an English Language Certificate Course.📜 Certificate of Completion
+
+                                
+                            </p>
+                            <button class="btn btn-sm btn-outline cert-modal-btn" data-cert="cert2">
+                                <i class="fa-solid fa-eye"></i> View Certificate
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Certificate Card 03 -->
+                    <div class="certificate-card glass-card scroll-reveal">
+                        <div class="cert-image-container">
+                            <img src="C:\Users\hp\OneDrive\Desktop\my pot polio\WhatsApp Image 2026-09-20 at 13.31.52.jpeg" alt="Certificate 03" class="cert-img" onerror="this.parentElement.innerHTML='<div class=\'cert-placeholder\'><i class=\'fa-solid fa-award\'></i><span>Certificate Image</span></div>'">
+                        </div>
+                        <div class="cert-details">
+                            <span class="cert-badge">Certificate 03</span>
+                            <h3 class="cert-title">[Cancer Awareness Programming]</h3>
+                            <div class="cert-meta">
+                                <span class="cert-org"><i class="fa-solid fa-building"></i> [Genaral Hospital in Ampara]</span>
+                                <span class="cert-year"><i class="fa-regular fa-calendar"></i> [2026]</span>
+                            </div>
+                            <p class="cert-desc">
+                                Cancer Awareness Program – Certificate of Participation. Successfully participated in a cancer awareness program and received a certificate of participation.
+                            </p>
+                            <button class="btn btn-sm btn-outline cert-modal-btn" data-cert="cert3">
+                                <i class="fa-solid fa-eye"></i> View Certificate
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Journey Timeline Section -->
+        <section id="journey" class="journey-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">06. JOURNEY</span>
+                    <h2 class="section-title">My Development Journey</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline scroll-reveal">
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 01</div>
+                            <h3 class="timeline-title">Started IT</h3>
+                            <p class="timeline-desc">
+                                Enrolled in IT studies and discovered a passion for computer science and software development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 02</div>
+                            <h3 class="timeline-title">Learned Web Development</h3>
+                            <p class="timeline-desc">
+                                Mastered core web fundamentals including HTML5, CSS3 styling systems, and JavaScript.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 03</div>
+                            <h3 class="timeline-title">Built First Website</h3>
+                            <p class="timeline-desc">
+                                Created responsive personal web pages and experimented with modern UI layouts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 04</div>
+                            <h3 class="timeline-title">Created Interactive Projects</h3>
+                            <p class="timeline-desc">
+                                Developed practical real-world applications including INDOPLANT e-commerce, flower shop, and sweet shop sites.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 05</div>
+                            <h3 class="timeline-title">Learned Databases</h3>
+                            <p class="timeline-desc">
+                                Deepened backend skills with PHP scripting and relational database architecture using MySQL.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 06</div>
+                            <h3 class="timeline-title">Started Building More Complex Applications</h3>
+                            <p class="timeline-desc">
+                                Built full-stack solutions combining dynamic frontends, server controllers, and database query handling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item active-step">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-step">Step 07 (Present)</div>
+                            <h3 class="timeline-title">Currently Improving Full-Stack Development Skills</h3>
+                            <p class="timeline-desc">
+                                Deepening expertise in advanced JavaScript, React framework, REST APIs, database optimizations, and UI/UX design.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Currently Learning Grid -->
+                <div class="learning-focus-container scroll-reveal">
+                    <h3 class="learning-focus-title">
+                        <i class="fa-solid fa-rocket gradient-icon"></i> Currently Learning
+                    </h3>
+                    <div class="learning-grid">
+                        <div class="learning-card glass-card">
+                            <i class="fa-brands fa-js learning-icon"></i>
+                            <span>Advanced JavaScript</span>
+                        </div>
+                        <div class="learning-card glass-card">
+                            <i class="fa-brands fa-react learning-icon"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="learning-card glass-card">
+                            <i class="fa-solid fa-server learning-icon"></i>
+                            <span>Backend Development</span>
+                        </div>
+                        <div class="learning-card glass-card">
+                            <i class="fa-solid fa-database learning-icon"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="learning-card glass-card">
+                            <i class="fa-solid fa-pen-nib learning-icon"></i>
+                            <span>UI/UX</span>
+                        </div>
+                        <div class="learning-card glass-card">
+                            <i class="fa-solid fa-layer-group learning-icon"></i>
+                            <span>Full-Stack Development</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">07. RESUME</span>
+                    <h2 class="section-title">Resume &amp; Overview</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="resume-wrapper glass-card scroll-reveal">
+                    <div class="resume-header">
+                        <div class="resume-user-info">
+                            <h3>Dilki Apsara</h3>
+                            <p class="gradient-text">IT Student &amp; Full-Stack Web Developer</p>
+                        </div>
+                        <a href= "C:\Users\hp\OneDrive\Desktop\my pot polio\DILKI_APSARA_FlowCV_Resume_2026-09-22.pdf"download-cv-resume-btn class="btn btn-primary" download>
+                            <i class="fa-solid fa-file-arrow-down"></i> Download CV
+                        </a>
+                    </div>
+
+                    <div class="resume-grid">
+                        <div class="resume-block">
+                            <h4><i class="fa-solid fa-graduation-cap"></i> Education Overview</h4>
+                            <p>Undergraduate IT student pursuing software engineering &amp; full-stack web technologies.</p>
+                        </div>
+
+                        <div class="resume-block">
+                            <h4><i class="fa-solid fa-code"></i> Technical Stack</h4>
+                            <p>HTML5, CSS3, JavaScript, React, PHP, MySQL, Git, GitHub, VS Code.</p>
+                        </div>
+
+                        <div class="resume-block">
+                            <h4><i class="fa-solid fa-folder-open"></i> Key Projects</h4>
+                            <p>INDOPLANT E-Commerce, Online Flower Shop, Sweet Shop Web Applications.</p>
+                        </div>
+
+                        <div class="resume-block">
+                            <h4><i class="fa-solid fa-award"></i> Certificates &amp; Training</h4>
+                            <p>Continuous learning in frontend UI engineering, backend logic, and database management.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="section-tag">08. CONTACT</span>
+                    <h2 class="section-title">Let's Build Something Together 🚀</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    
+                    <!-- Contact Info Column -->
+                    <div class="contact-info scroll-reveal">
+                        <h3 class="contact-subtitle">Get In Touch</h3>
+                        <p class="contact-intro">
+                            Whether you have an interesting project idea, an internship/job opportunity, or just want to connect, feel free to drop me a message!
+                        </p>
+
+                        <div class="contact-cards">
+                            <a href="mailto:dilkiapsara786@gmail.com" class="contact-item glass-card">
+                                <div class="contact-icon icon-purple">
+                                    <i class="fa-regular fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">Email</span>
+                                    <span class="contact-value">dilkiapsara786@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/DilkiApsara741" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                                <div class="contact-icon icon-cyan">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">GitHub</span>
+                                    <span class="contact-value">github.com/DilkiApsara741</span>
+                                </div>
+                            </a>
+
+                            <a href="https://linkedin.com/in/dilkiapsara" target="_blank" rel="noopener noreferrer" class="contact-item glass-card">
+                                <div class="contact-icon icon-blue">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LinkedIn</span>
+                                    <span class="contact-value">linkedin.com/in/dilkiapsara</span>
+                                </div>
+                            
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Column -->
+                    <div class="contact-form-container glass-card scroll-reveal">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="user-name">Your Name</label>
+                                <input type="text" id="user-name" name="name" placeholder="John Doe" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-email">Your Email</label>
+                                <input type="email" id="user-email" name="email" placeholder="john@example.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-subject">Subject</label>
+                                <input type="text" id="user-subject" name="subject" placeholder="Project Inquiry / Opportunity" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-message">Message</label>
+                                <textarea id="user-message" name="message" rows="4" placeholder="Hello Dilki, I'd like to discuss..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#home" class="logo">
+                    <span class="logo-symbol">&lt;</span>Dilki<span class="gradient-text">.Apsara</span><span class="logo-symbol">/&gt;</span>
+                </a>
+                <p class="footer-copy">&copy; 2026 Dilki Apsara &mdash; IT Student &amp; Full-Stack Web Developer</p>
+            </div>
+
+            <div class="footer-socials">
+                <a href="https://github.com/DilkiApsara741" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/dilkiapsara" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="mailto:dilkiapsara@example.com" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+            </div>
+
+            <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <!-- Toast Notification Element -->
+    <div id="toast" class="toast">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <span id="toast-message">Message sent successfully!</span>
+    </div>
+
+    <!-- Project Demo & Details Modal -->
+    <div id="demo-modal" class="modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close-btn">&times;</button>
+            <div class="modal-body" id="modal-body-content">
+                <!-- Dynamic Modal Content populated via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Certificate Preview Modal -->
+    <div id="cert-modal" class="modal">
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="cert-modal-close-btn">&times;</button>
+            <div class="modal-body" id="cert-modal-body-content">
+                <!-- Dynamic Certificate Modal populated via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- CV Download Modal -->
+    <div id="cv-modal" class="modal">
+        <div class="modal-content glass-card text-center">
+            <button class="modal-close" id="cv-modal-close-btn">&times;</button>
+            <div class="cv-modal-icon">
+                <i class="fa-solid fa-file-pdf gradient-icon"></i>
+            </div>
+            <h3>Dilki Apsara - Curriculum Vitae</h3>
+            <p>IT Student &amp; Full-Stack Web Developer</p>
+            <div class="cv-options">
+                <a href="C:\Users\hp\OneDrive\Desktop\my pot polio\DILKI_APSARA_FlowCV_Resume_2026-09-22 (1).pdf"id="download-cv-action" class="btn btn-primary" download>
+                    <i class="fa-solid fa-download"></i> Download PDF CV
+                </a>
+                <button id="close-cv-modal-btn" class="btn btn-outline">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
